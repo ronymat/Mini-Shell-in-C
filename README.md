@@ -166,33 +166,10 @@ This project uses:
 ---
 
 ## Build Instructions
-
-Compile using:
-
-```bash
-make
-```
-
-Or manually:
+manually:
 
 ```bash
 gcc main.c scan_input.c commands.c exec_internal.c exec_external.c link.c -o minishell
-```
-
-Clean build files:
-
-```bash
-make clean
-```
-
----
-
-## Usage
-
-Run:
-
-```bash
-./minishell
 ```
 
 ## Data Structures Used
